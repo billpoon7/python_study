@@ -66,3 +66,24 @@ def fact(n):
     return n * fact(n - 1)
 
 # print(fact(5))
+
+def createList():
+    L = []
+    n = 1
+    while n <= 99:
+        L.append(n)
+        n = n + 2
+    return L
+
+# for n in createList()[3:7]:
+#     print(n)
+
+
+# L1 = [1, 2, 3, 4, 5]
+# for l in L1[0:3]:
+#     print(l)
+
+L2 = [x * x for x in range(1, 11)]
+
+for num in L2:
+    print(num)
